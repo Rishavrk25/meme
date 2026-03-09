@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
             loadingElement.textContent = 'Generating creative meme text with AI...';
             
             // Prepare the request to Gemini API
-            const apiUrl = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent';
+            const apiUrl = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent';
             
             const requestBody = {
                 contents: [{
