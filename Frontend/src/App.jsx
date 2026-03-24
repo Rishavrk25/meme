@@ -36,7 +36,7 @@ function App() {
         try {
             const templateName = memeTemplates.find(t => t.id === templateId)?.name || '';
 
-            const response = await fetch('http://localhost:5001/api/generate-meme', {
+            const response = await fetch('https://meme-backend-7s6g.onrender.com/api/generate-meme', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
