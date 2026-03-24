@@ -1,2 +1,19 @@
+# Environment variables
 .env
-backend/.env
+Backend/.env
+
+# Dependencies
+node_modules/
+Backend/node_modules/
+Frontend/node_modules/
+
+# Build output
+Frontend/dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
